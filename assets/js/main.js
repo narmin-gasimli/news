@@ -1,10 +1,27 @@
+const url = 'https://extract-news.p.rapidapi.com/v0/article?url=https%3A%2F%2Fwww.theverge.com%2F2020%2F4%2F17%2F21224728%2Fbill-gates-coronavirus-lies-5g-covid-19';
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': 'd7fc555b29msh39bb95de79f85a4p110761jsn074dca2d2299',
+		'X-RapidAPI-Host': 'extract-news.p.rapidapi.com'
+	}
+};
 
+
+
+async function api (){
+  try {
+    const response = await fetch(url, options);
+    const result = await response.text();
+    console.log(result);
+  } catch (error) {
+    console.error(error);
+  }
+}
+api()
 (function() {
   "use strict";
 
-  /**
-   * Easy selector helper function
-   */
   const select = (el, all = false) => {
     el = el.trim()
     if (all) {
