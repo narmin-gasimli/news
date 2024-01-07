@@ -10,4 +10,4 @@ $(document).ready(function() {
       responsive :true,
      autoPlay: true,
     });
-  });
+  }); 
