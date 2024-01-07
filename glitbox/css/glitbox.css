@@ -866,7 +866,7 @@
     }
     .glightbox-container .ginner-container.desc-left .gslide-image {
       -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
+      -ms-flex-order: 1; 
       order: 1;
     }
     .gslide-image img {
