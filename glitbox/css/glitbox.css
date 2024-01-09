@@ -867,13 +867,13 @@
     .glightbox-container .ginner-container.desc-left .gslide-image {
       -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1; 
-      order: 1;
+      order: 1; 
     }
     .gslide-image img {
       max-height: 97vh;
       max-width: 100%;
     }
-    .gslide-image img.zoomable {
+    .gslide-image img.zoomable { 
       cursor: -webkit-zoom-in;
       cursor: zoom-in;
     }
