@@ -879,7 +879,7 @@
     }
     .zoomed .gslide-image img.zoomable {
       cursor: -webkit-grab;
-      cursor: grab;
+      cursor: grab; 
     }
     .gslide-inline {
       max-height: 95vh;
